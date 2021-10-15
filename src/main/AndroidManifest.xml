@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ushareit.spyon">
+
+    <application>
+        <activity
+            android:name=".filelist.ApyOnActivity"
+            android:exported="true" />
+        <activity
+            android:name=".filedetail.FileDetailActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

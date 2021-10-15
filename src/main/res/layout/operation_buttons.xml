@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btInner"
+        android:layout_width="wrap_content"
+        android:text="内部存储"
+        android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btOuter"
+        android:layout_width="wrap_content"
+        android:text="外部存储"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
